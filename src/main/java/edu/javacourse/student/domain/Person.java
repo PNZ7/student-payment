@@ -8,6 +8,7 @@ public class Person {
     private String givenName;
     private String patronymic;
     private LocalDate dateOfBirth;
+    private Address address;
 
     public String getSurName() {
         return surName;
@@ -39,5 +40,13 @@ public class Person {
 
     public void setDateOfBirth(LocalDate dateOfBirth) {
         this.dateOfBirth = dateOfBirth;
+    }
+
+    public Address getAddress() {
+        return address;
+    }
+
+    public void setAddress(Address address) {
+        this.address = address;
     }
 }
